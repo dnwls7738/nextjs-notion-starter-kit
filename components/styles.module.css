@@ -218,3 +218,9 @@
 .hidden {
   visibility: hidden;
 }
+
+.hits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
