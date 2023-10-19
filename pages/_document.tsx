@@ -18,6 +18,15 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
+
+            <meta
+              name='google-site-verification'
+              content='xxxx'
+            />
+            <meta
+              name='naver-site-verification'
+              content='xxxx'
+            />
           </Head>
 
           <body>
