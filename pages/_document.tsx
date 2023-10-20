@@ -67,6 +67,8 @@ export default class MyDocument extends Document {
     localStorage.setItem(storageKey, JSON.stringify(isDarkMode))
   }
 })();
+
+/** 채널톡 */
 (function() {
   var w = window;
   if (w.ChannelIO) {
@@ -103,7 +105,7 @@ export default class MyDocument extends Document {
   }
 })();
 ChannelIO('boot', {
-  "pluginKey": "21c31f7f-5312-4466-bb81-85bf62d8396f"
+  "pluginKey": process.env.CHANNAL_TALK
 });
 `
               }}              
