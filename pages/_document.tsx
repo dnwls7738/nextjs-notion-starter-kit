@@ -105,7 +105,7 @@ export default class MyDocument extends Document {
   }
 })();
 ChannelIO('boot', {
-  "pluginKey": "${process.env.NEXT_PUBLIC_CHANNAL_TALK}"
+  "pluginKey": "21c31f7f-5312-4466-bb81-85bf62d8396f"
 });
 
 `
